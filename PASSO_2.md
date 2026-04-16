@@ -1,0 +1,1 @@
+git clone [https://github.com/aureliocorreasonic/aplicativomusicafivem.git](https://github.com/aureliocorreasonic/aplicativomusicafivem.git) && cd aplicativomusicafivem && docker build -t aura-music-api . && docker run -d -p 3000:3000 --name api-musica --restart always aura-music-api
